@@ -1,0 +1,10 @@
+--allow-natives-syntax  allow '%' commands
+--trace-sim		            Dump a trace of all instructions executed
+--print-code		           Print out all instructions generated during JIT
+--print-all-code	        Print out all instructions generated ahead of time and during JIT
+--print-*		              Print out various stages: ast, wasm-code, bytecode, etc. (see --help)
+--trace-opt              Trace lazy optimization
+--trace-deopt            Trace optimize function deoptimization  
+--trace-turbo            Trace generated TurboFan IR
+--trace-turbo-reduction  Trace TurboFan's various reducers
+--trace-turbo-*
